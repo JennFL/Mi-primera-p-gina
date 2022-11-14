@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #BFBAA8;
+    color: #f0f0f0;
+}
+.banner {
+    background-image: url('../styles/img/Portadaepisodios.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    height: 500px;
+    box-shadow: 0 0 20px black;
+}
+/* Navegador */
+.menu {
+    padding: 20px;
+}
+.menuContainer{
+    width: fit-content;
+    margin: auto;
+}
+.menuItem {
+    display: inline-block;
+    margin: 0 20px;
+    width: 150px;
+}
+.menuLink {
+    display: inline-block;
+    background-color: #F2E638;
+    color: #2b2b2b;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    transition: all .2s ease-in-out;
+    font-size: 20px;
+}
+  .menuLink:hover {
+    transform: scale(1.1);
+    color: #f0f0f0;
+    background-color: transparent;
+  }
+  .mainContainer {
+    background-color: #0D0000;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 20px white;
+  }
+/* Titulo */
+.title {
+    text-align: center;
+}
+
+div.itemContainer{
+    margin-top: 20px;
+    width: 1050px;
+    min-height: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+div.titulo{
+    width: 1050px;
+    height: 50px;
+    background-color: #F2E638;
+    overflow: hidden;
+}
+p.titulo{
+    margin: 13px;
+    color: black;
+    box-shadow: 20px black;
+    font-size: 20px;
+}
+div.info{
+    width: 1050px;
+    height: 0px;
+    background-color: #BFBAA8;
+    overflow: hidden;
+    transition: height 1s;
+}
+p.info{
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+div.itemContainer:hover div.info{
+    height: 400px;
+
+}
+/* Tablas */
+.table{
+    margin-top: 20px;
+    border: solid 2px gray;
+    border-collapse: collapse;
+    width: 22%;
+    height: auto;
+    text-align: left;
+    display: inline-flex;
+    margin-right: 20px;
+}
+table th, .table td{
+    border: solid 2px gray;
+    height: 100%;
+    padding: 8px;
+}
+.table th{
+  background-color: #BFB9A4;
+  color: black; 
+}
+.footer {
+    background-color: #1f1f1f;
+    padding: 30px;
+  }
+  
+  .copy {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .footerContact{
+    margin-bottom: 10px;
+  }
+  
+  .footerContact a {
+    color: #F2E638;
+    font-size: 14px;
+  }
+  
+  
+  .footerContact * {
+    text-align: center;
+    display: block;
+  }
+

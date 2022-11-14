@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #BFBAA8;
+    color: #f0f0f0;
+  }
+  .banner {
+    background-image: url('./img/portadadiario2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    height: 500px;
+    box-shadow: 0 0 20px black;
+}
+.title {
+    text-align: center;
+}  
+.menu {
+    padding: 20px;
+}
+  
+.menuContainer{
+  width: fit-content;
+  margin: auto;
+}
+
+.menuItem {
+  display: inline-block;
+  margin: 0 20px;
+  width: 150px;
+}
+
+.menuLink {
+  display: inline-block;
+  background-color: #F2E638;
+  color: #2b2b2b;
+  padding: 10px;
+  border-radius: 2px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  transition: all .2s ease-in-out;
+  font-size: 20px;
+}
+.menuLink:hover {
+  transform: scale(1.1);
+  color: #f0f0f0;
+  background-color: transparent;
+}
+.mainContainer {
+  background-color: #0D0000;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 0 0 20px white;
+}
+/* Sección Libros */
+.sectionContainer3{
+  margin: 30px;
+  margin-top: 5px;
+}
+.galleryItem3{
+  display: inline-block;
+  align-items: center;
+  width: 350px;
+  height: 600px;
+  margin: 8px;
+  background-color: #BFBAA8;
+  box-shadow: 5px 5px #F2E638;
+  color: black;
+  padding: 20px;
+  
+}
+.galleryItem3 figure{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.galleryItem3 figure img{
+  width: 300px;
+  height: 300px;
+  transition: all 500ms ease-out;
+}
+.galleryItem3 figure .titulo1{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/Portadatitulo1.jpg');
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: arial black;
+  -webkit-text-stroke: 2px black
+}
+.galleryItem3 figure:hover > .titulo1{
+  opacity: 1;
+  visibility: visible;
+}
+.galleryItem3 figure:hover > .titulo1 p{
+  margin-top: 95px;
+}
+.galleryItem3 figure .titulo1 p{
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+}
+.galleryItem3 p{
+  margin-top: 20px;
+}
+.footer {
+  background-color: #1f1f1f;
+  padding: 30px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footerContact{
+  margin-bottom: 10px;
+}
+
+.footerContact a {
+  color: #F2E638;
+  font-size: 14px;
+}
+
+
+.footerContact * {
+  text-align: center;
+  display: block;
+}
